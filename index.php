@@ -60,11 +60,11 @@
                                         Deletar
                                     </button>
                                 </a>
-                                <button type='submit' class='btn btn-danger' data-toggle='modal' data-target='#myModal'>Editar</button>
+                                <button type='submit' class='btn btn-primary' data-toggle='modal' data-target='#myModal" . $item['id'] . "'>Editar</button>
                             </div>
                         </div>
                     </div>
-                    <div id='myModal' class='modal fade' role='dialog'>
+                    <div id='myModal" . $item['id'] . "' class='modal fade' role='dialog'>
                         <div class='modal-dialog'>
 
                           <div class='modal-content'>
